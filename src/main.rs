@@ -366,7 +366,7 @@ fn main() {
     const LENGTH:      [Length; 3] = [Length::Short, Length::Medium, Length::Long];
     const PROB_ACC:    [f64; 3]    = [0.1, 0.25, 0.5];
     const NUM_RSRC_L2: [i32; 4]    = [-2, -1, 0, 1];
-    const PROB_WRITE:  [f64; 6]    = [0.1, 0.2, 0.3, 0.5, 0.7];
+    const PROB_WRITE:  [f64; 5]    = [0.1, 0.2, 0.3, 0.5, 0.7];
 
     let args = TestSet::parse();
 

@@ -1,0 +1,14 @@
+[package]
+name = "rtsched"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+num-order = "1.2"
+dashu = "0.4"
+clap = { version = "4.5", features = ["derive"] }
+itertools = "0.14"
+
+[profile.release]
+debug = 1
